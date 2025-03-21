@@ -1,0 +1,48 @@
+.block {
+    font-family: "Great Vibes", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.block1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.block2 {
+    font-family: "Tinos", serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.block3 {
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block4 {
+    color: rgb(87, 11, 11);
+    font-family: "Arial", sans-serif;
+    line-height: 40px;
+    word-spacing: 30px;
+    text-shadow: 3px 3px 5px rgb(209, 21, 21);
+    text-decoration: overline;
+    text-decoration-style: wavy;
+}
+
+.block5 {
+    font-family: "Arial", sans-serif;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+}
