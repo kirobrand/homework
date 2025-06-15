@@ -1,0 +1,186 @@
+body {
+    background-color: #1e1e20;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 100px;
+    background-color: #585757;
+    margin-top: 10px;
+    border-radius: 0 50px 50px 0;
+}
+
+.block {
+    background-color: #fcfbfb;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+/* ========================================================= */
+
+.red {
+    animation: red-block 3s .3s 1 forwards linear, red-block-back 3s 15.3s forwards linear;
+}
+
+@keyframes red-block {
+    0% {
+        left: 0px;
+        background-color: #fff;
+    }
+
+    100% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+        background-color: #eb2121;
+    }
+}
+
+@keyframes red-block-back {
+    0% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+    }
+
+    50% {
+        border: 10px solid black;
+    }
+
+    100% {
+        left: 0px;
+        border-radius: 0%;
+    }
+}
+
+.yellow {
+    animation: yellow-block 3s 3.3s 1 forwards linear, yellow-block-back 3s 18.3s forwards linear;;
+}
+
+@keyframes yellow-block {
+    0% {
+        left: 0px;
+        background-color: #fff;
+    }
+
+    100% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+        background-color: #efff0e;
+    }
+}
+@keyframes yellow-block-back {
+    0% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+    }
+
+    50% {
+        border: 10px solid black;
+    }
+
+    100% {
+        left: 0px;
+        border-radius: 0%;
+    }
+}
+
+.green {
+    animation: green-block 3s 6.3s 1 forwards linear, green-block-back 3s 21.3s forwards linear;;
+}
+
+@keyframes green-block {
+    0% {
+        left: 0px;
+        background-color: #fff;
+    }
+
+    100% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+        background-color: #05ad13;
+    }
+}
+@keyframes green-block-back {
+    0% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+    }
+
+    50% {
+        border: 10px solid black;
+    }
+
+    100% {
+        left: 0px;
+        border-radius: 0%;
+    }
+}
+
+.blue {
+    animation: blue-block 3s 9.3s 1 forwards linear, blue-block-back 3s 23.3s forwards linear;;
+}
+
+@keyframes blue-block {
+    0% {
+        left: 0px;
+        background-color: #fff;
+    }
+
+    100% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+        background-color: #190ae4;
+    }
+}
+@keyframes blue-block-back {
+    0% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+    }
+
+    50% {
+        border: 10px solid black;
+    }
+
+    100% {
+        left: 0px;
+        border-radius: 0%;
+    }
+}
+
+.purple {
+    animation: purple-block 3s 12.3s 1 forwards linear, purple-block-back 3s 26.3s forwards linear;;
+}
+
+@keyframes purple-block {
+    0% {
+        left: 0px;
+        background-color: #fff;
+    }
+
+    100% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+        background-color: #9c06b9;
+    }
+}
+@keyframes purple-block-back {
+    0% {
+        left: calc(100% - 100px);
+        border-radius: 50%;
+    }
+
+    50% {
+        border: 10px solid black;
+    }
+
+    100% {
+        left: 0px;
+        border-radius: 0%;
+    }
+}
