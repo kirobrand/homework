@@ -21,5 +21,5 @@ const users = [
     }
 ]
 for (let i = 0; i < users.length; i++) {
-    console.log(users[i].isAdmin)
+    console.log(users[i])
 }
