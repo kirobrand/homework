@@ -1,0 +1,316 @@
+:root {
+    --general-text: #FFFFFF;
+    --accent-text: #F69020;
+    --general-bg: #191B20;
+    --common-bg: #131517;
+    --accent-bg: #282B32;
+
+    background: #ffffff12;
+
+    --transition: all .4s;
+    --border-radius: 20px
+}
+
+.body {
+    font-family: "Muller Narrow-Trial", "Arial", sans-serif;
+    line-height: 1.5;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1850px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+/* =============================================================== */
+
+.header {
+    padding-top: 40px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    max-width: 293px;
+    max-height: 67px;
+}
+
+.nav {
+    display: flex;
+    gap: 186px;
+}
+
+.nav__contacts {
+    display: flex;
+    gap: 53px;
+}
+
+.nav__contacts-item {
+    display: flex;
+    align-items: center;
+
+    padding: 5px 0;
+    font-size: 15px;
+    gap: 17px;
+}
+
+.nav__contacts-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #ffffff12;
+}
+
+.nav__contact-link {
+    display: block;
+}
+
+.nav__location-link {
+    display: block;
+    color: var(--accent-text);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.65px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #393C43;
+    border-radius: 40px;
+    background: #ffffff00;
+    width: 204px;
+    height: 60px;
+    flex-shrink: 0;
+    
+}
+
+.nav__reservation-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background: #FFF;
+    width: 204px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #000;
+    
+}
+
+.nav__list-item {}
+
+
+
+
+
+
+
+/* .header {
+    padding-top: 50px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    max-width: 276px;
+    height: 50px;
+}
+.nav {
+display: flex;
+justify-content: center;
+
+}
+.nav__contacts {
+    display: flex;
+    gap: 53px;
+    
+}
+.nav__contacts-item {
+    display: flex;
+}
+.nav__contacts-img {
+}
+.nav__contacts-link {
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+.nav__list-item {
+}
+.nav__link {
+}
+.burger-icon {
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header {
+
+}
+
+.header__top {
+    padding-top: 19px;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header__logo {
+    max-width: 174px;
+    z-index: 11;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.nav__contacts {
+    display: flex;
+    gap: 4vh 40px;
+}
+
+.nav__link {
+    display: block;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav__link::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -13px;
+    z-index: -1;
+    width: 34px;
+    height: 34px;
+    background: var(--accent-color);
+    border-radius: 50%;
+
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.nav__link:hover::before {
+    opacity: 1;
+}
+
+.burger-icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
+
+.burger-icon span,
+.burger-icon span::before,
+.burger-icon span::after {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    background: var(--general-text);
+    transition: var(--transition);
+}
+
+.burger-icon span {
+    position: relative;
+}
+
+.burger-icon span::before,
+.burger-icon span::after {
+    content: '';
+    position: absolute;
+}
+
+.burger-icon span::before {
+    top: -8px;
+}
+
+.burger-icon span::after {
+    bottom: -8px;
+}
+
+.body--opened-menu .burger-icon span {
+    background: transparent;
+}
+
+.body--opened-menu .burger-icon span::before {
+    top: 0px;
+    transform: rotate(45deg);
+}
+
+.body--opened-menu .burger-icon span::after {
+    bottom: 0px;
+    transform: rotate(-45deg);
+}
+
+.header__hero {
+    padding: 50px 0 140px;
+}
+
+============================================================= */
