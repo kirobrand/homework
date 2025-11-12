@@ -1,0 +1,267 @@
+:root {
+    --general-text: #FFFFFF;
+    --accent-text: #F69020;
+    --general-bg: #191B20;
+    --common-bg: #131517;
+    --accent-bg: #282B32;
+
+    background: #ffffff12;
+
+    --transition: all .4s;
+    --border-radius: 20px
+}
+
+.body {
+    font-family: "Muller Narrow-Trial", "Arial", sans-serif;
+    line-height: 1.5;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1850px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.nav__reservation-link {
+    background: #FFF;
+    color: #000;
+    font-weight: 700;
+}
+
+.hero__reservation-link {
+    color: #252121;
+    font-weight: 500;
+    background: linear-gradient(93deg, #EA422A 0%, #F69020 48.58%, #FFC619 101.38%);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 204px;
+    height: 60px;
+    flex-shrink: 0;
+    font-size: 13px;
+}
+
+
+/* =============================================================== */
+
+.header__top {
+    padding-top: 40px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    max-width: 293px;
+    max-height: 67px;
+}
+
+.nav {
+    display: flex;
+    gap: 186px;
+}
+
+.nav__contacts {
+    display: flex;
+    gap: 53px;
+}
+
+.nav__contacts-item {
+    display: flex;
+    align-items: center;
+
+    padding: 5px 0;
+    font-size: 15px;
+    gap: 17px;
+}
+
+.nav__contacts-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #ffffff12;
+}
+
+.nav__contact-link {
+    display: block;
+    font-family: "Arial", sans-serif;
+}
+
+.nav__location-link {
+    display: block;
+    color: var(--accent-text);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.65px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #393C43;
+    border-radius: 40px;
+    background: #ffffff00;
+    width: 204px;
+    height: 60px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+/* =================================================================== */
+
+.hero__background {
+    position: relative;
+}
+
+.hero__hall {
+    position: absolute;
+    top: -80px;
+    right: 11px;
+    width: 1024px;
+}
+
+.hero__dancer {
+    position: absolute;
+    top: -205px;
+    right: 204px;
+    width: 700px;
+    height: 1247px;
+    flex-shrink: 0;
+}
+
+.hero__microphone {
+    position: absolute;
+    top: 239px;
+    right: 385px;
+    width: 167px;
+    height: 624px;
+}
+
+/* ======================================================================= */
+
+.hero__inner {
+    padding-top: 113px;
+}
+
+.hero__information {}
+
+.hero__title {
+    color: var(--general-text);
+    font-size: 41px;
+    line-height: 82px;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+}
+
+.hero__text {
+    display: flex;
+    position: relative;
+    max-width: 730px;
+}
+
+.hero__text-item {
+    display: inline-block;
+    color: var(--general-text);
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 94px;
+    letter-spacing: 2.25px;
+    text-transform: uppercase;
+}
+
+.hero__location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 38px;
+    right: 95px;
+    color: var(--general-text);
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 113px;
+    height: 27px;
+    border-radius: 60px;
+    background: #343A3E;
+}
+
+.hero__info {
+    padding-top: 70px;
+    max-width: 770px;
+}
+
+.hero__list {
+    display: flex;
+    gap: 21px;
+}
+
+.hero__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 212px;
+    height: 50px;
+    gap: 11px;
+    color: var(--general-text);
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.54px;
+}
+
+.hero__list-img {
+    min-width: 50px;
+    height: 50px;
+
+}
+
+.reservation {}
+
+.nav__reservation-link {}
+
+.hero__noise {}
+
+.hero__noise-first {}
+
+.hero__noise-second {}
+
+.hero__contacts {}
+
+.hero__data {}
+
+.hero__data-item {}
